@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yogesh Portfolio</title>
+  <meta name="description" content="Yuva Nandu — B.Tech IT | Java Developer | Projects, Skills, and Contact" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+ 
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">
+        <div class="logo"><span>Y</span></div>
+        <span>Yogesh.S.V</span>
+      </a>
+      <nav class="nav-links">
+         <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon"></i><span>Theme</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section id="home" class="hero container">
+    <div class="hero-grid">
+      <div>
+        <span class="tag"><i class="fa-solid fa-code"></i> B.Tech IT • Java Full Stack Developer</span>
+        <h1>
+          Hi, I'm <span class="gradient">Yogesh</span> —
+          <span id="typewrite" aria-live="polite">building delightful software.</span>
+        </h1>
+        <p class="sub">I craft clean, performant web and desktop applications. Passionate about Java, modern UI, and smooth user experiences. Let’s build something memorable.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects"><i class="fa-solid fa-rocket"></i> View Projects</a>
+          <a class="btn" href="#contact"><i class="fa-solid fa-envelope"></i> Contact Me</a>
+         
+        </div>
+        <div class="about-list" style="margin-top:18px">
+          <span class="chip"><i class="fa-solid fa-graduation-cap"></i> 4th Year B.Tech IT</span>
+          <span class="chip"><i class="fa-solid fa-laptop-code"></i> Java • MySQL • Swing</span>
+          <span class="chip"><i class="fa-solid fa-globe"></i> HTML • CSS • JS • Bootstrap</span>
+          <span class="chip"><i class="fa-solid fa-bolt"></i> Animations & UI/UX </span>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="glass">
+          <div class="grid-2">
+            <div class="stat">
+              <div class="num">2+</div>
+              <div class="lbl">Projects</div>
+            </div>
+            <div class="stat">
+              <div class="num">8.5/10</div>
+              <div class="lbl">UI Polish</div>
+            </div>
+            <div class="stat">
+              <div class="num">Java</div>
+              <div class="lbl">Primary Stack</div>
+            </div>
+            <div class="stat">
+              <div class="num">React-ready</div>
+              <div class="lbl">Future Growth</div>
+            </div>
+          </div>
+          <div class="pill" style="margin-top:14px"><i class="fa-solid fa-shield-halved"></i> Clean, accessible, responsive</div>
+        </div>
+        <div class="stats">
+          <div class="stat"><div class="num">100%</div><div class="lbl">Responsive</div></div>
+          <div class="stat"><div class="num">A+</div><div class="lbl">Performance</div></div>
+          <div class="stat"><div class="num">0 bugs*</div><div class="lbl">*aiming 😄</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="projects">
+    <div class="container">
+      <div class="section-head">
+        <h2>Featured <span class="gradient">Projects</span></h2>
+        <p>Hand-picked work from web and desktop. Clean code, thoughtful UX, and real-world functionality.</p>
+      </div>
+      <div class="projects-grid">
+        
+        <article class="card reveal">
+          <div class="thumb" role="img" aria-label="Food & Beverages Website preview"></div>
+          <div class="body">
+            <h3>Hotel Management System</h3>
+            
+            <p>Restaurant-style site with smooth scroll, menu pricing, and checkout-ready flow for real-world use.</p>
+            <div class="tags">
+              <span class="tag-small">HTML</span>
+              <span class="tag-small">CSS</span>
+              <span class="tag-small">JavaScript</span>
+            </div>
+            <div class="actions">
+              <a class="btn" href="#" aria-disabled="true">GitHub</a>
+              <a class="btn" href="#" aria-disabled="true">Live</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="card reveal">
+          <div class="thumb" role="img" aria-label="Jawa Showroom Booking preview"></div>
+          <div class="body">
+            <h3>Jawa Showroom Booking</h3>
+            <p>End-to-end booking app built in Java Swing with form validation, data persistence, and receipt generation.</p>
+            <div class="tags">
+              <span class="tag-small">Java</span>
+              <span class="tag-small">Swing</span>
+              <span class="tag-small">OOP</span>
+            </div>
+            <div class="actions">
+              <a class="btn" href="#" aria-disabled="true">GitHub</a>
+              <a class="btn" href="#" aria-disabled="true">Demo</a>
+            </div>
+          </div>
+        </article>
+       
+        <article class="card reveal">
+          <div class="thumb" role="img" aria-label="Future project preview"></div>
+          <div class="body">
+            <h3>Upcoming: Bike Customizer 3D</h3>
+            <p>Planned WebGL/Three.js upgrade with real-time 3D model, colorways, and accessories cart.</p>
+            <div class="tags">
+              <span class="tag-small">Three.js</span>
+              <span class="tag-small">WebGL</span>
+              <span class="tag-small">UX</span>
+            </div>
+            <div class="actions">
+              <a class="btn" href="#" aria-disabled="true">Repo soon</a>
+              <a class="btn" href="#" aria-disabled="true">Preview</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="skills">
+    <div class="container">
+      <div class="section-head">
+        <h2>Skills & <span class="gradient">Tools</span></h2>
+        <p>A balanced stack focused on Java development and polished UI engineering.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill reveal"><strong>Java</strong><span class="muted">Core, OOP</span><div class="bar"><span style="width:88%"></span></div></div>
+        <div class="skill reveal"><strong>Swing</strong><span class="muted">Desktop UI</span><div class="bar"><span style="width:82%"></span></div></div>
+        <div class="skill reveal"><strong>MySQL</strong><span class="muted">CRUD, Joins</span><div class="bar"><span style="width:76%"></span></div></div>
+        <div class="skill reveal"><strong>HTML</strong><span class="muted">Semantic</span><div class="bar"><span style="width:90%"></span></div></div>
+        <div class="skill reveal"><strong>CSS</strong><span class="muted">Flex/Grid</span><div class="bar"><span style="width:84%"></span></div></div>
+        <div class="skill reveal"><strong>JavaScript</strong><span class="muted">DOM, Fetch</span><div class="bar"><span style="width:78%"></span></div></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about">
+    <div class="container">
+      <div class="section-head">
+        <h2>About <span class="gradient">Me</span></h2>
+        <p>Curious developer who enjoys clean architectures, intuitive UX, and shipping value. Currently in 3rd-year B.Tech IT.</p>
+      </div>
+      <div class="about">
+        <div class="about-card reveal">
+          <h3>Summary</h3>
+          <p>
+            Aspiring Information Technology graduate with a strong foundation in Java, web development, and database management. Passionate about building user-friendly applications and solving real-world problems through technology. Completed academic projects like a Jawa Bike Showroom Booking System and Hotel Management Website, showcasing skills in full-stack development. Eager to contribute to innovative projects while continuously learning and growing as a software professional.
+          </p>
+          <div class="about-list">
+            <span class="chip"><i class="fa-solid fa-language"></i> English , Tamil, Kannada, Telugu, Marathi, Hindi, Urdu</span>
+            <span class="chip"><i class="fa-solid fa-location-dot"></i> India</span>
+            <span class="chip"><i class="fa-solid fa-medal"></i> Strong UI skills</span>
+            <span class="chip"><i class="fa-solid fa-people-group"></i> Team player</span>
+          </div>
+        </div>
+        <div class="about-card reveal">
+          <h3>Education & Experience</h3>
+          <div class="timeline">
+            <div class="t-item">
+              <div class="t-dot"></div>
+              <div class="t-card"><strong>B.Tech IT</strong> — The Kavery Engineering College (2022–2026)
+                ("CGPA 7.93%") 
+                <div class="muted">Core CS, DBMS, OOP, OS, CN</div>
+              </div>
+            </div>
+            <div class="t-item">
+              <div class="t-dot"></div>
+              <div class="t-card"><strong>Projects</strong> —  Jawa Showroom Booking, Hotel Management System</div>
+            </div>
+            <div class="t-item">
+              <div class="t-dot"></div>
+              <div class="t-card"><strong>Goals</strong> — Java Full-Stack, Spring Boot, REST APIs, and React UI</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="contact">
+    <div class="container">
+      <div class="section-head">
+        <h2>Contact <span class="gradient">Me</span></h2>
+        <p>Let’s collaborate or chat about opportunities. I respond quickly.</p>
+      </div>
+      <div class="contact">
+        <div class="about-card reveal">
+          <h3>Get in touch</h3>
+          <p><i class="fa-solid fa-paper-plane"></i> Email: <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">yogeshsv.dev@gmail.com</a></p>
+          <p><i class="fa-solid fa-phone"></i> Phone: <a href="tel:+919999999999">+91 8148808239</a></p>
+          <div class="about-list">
+            <a class="chip" href="https://github.com/yuva-dev-stack"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a class="chip" href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <a class="chip" href="https://www.instagram.com/"><i class="fa-brands fa-x-twitter"></i> Instagram</a>
+            <a class="chip" href="#"><i class="fa-solid fa-globe"></i> Facebook</a>
+          </div>
+        </div>
+        <form class="about-card reveal" id="contactForm" novalidate>
+          <div class="grid-2">
+            <div class="input"><label for="name">Name</label><input id="name" name="name" required placeholder="Your name" /></div>
+            <div class="input"><label for="email">Email</label><input id="email" name="email" type="email" required placeholder="you@example.com" /></div>
+          </div>
+          <div class="input"><label for="message">Message</label><textarea id="message" name="message" rows="5" required placeholder="Tell me about your project…"></textarea></div>
+          <button class="btn primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+          <p id="formStatus" class="muted" style="margin:6px 2px"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap">
+        <span>© <span id="year"></span> Yogesh SV. All rights reserved.</span>
+        <div style="display:flex; gap:10px; align-items:center">
+          <a class="pill" href="#home"><i class="fa-solid fa-arrow-up"></i> Back to top</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    
+    const root = document.documentElement;
+    const savedTheme = localStorage.getItem('theme');
+    if(savedTheme){ root.setAttribute('data-theme', savedTheme); }
+    const toggle = document.getElementById('themeToggle');
+    toggle.addEventListener('click', ()=>{
+      const current = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      root.setAttribute('data-theme', current);
+      localStorage.setItem('theme', current);
+      toggle.innerHTML = current === 'light' ? '<i class="fa-solid fa-sun"></i><span>Theme</span>' : '<i class="fa-solid fa-moon"></i><span>Theme</span>';
+    });
+
+    
+    const roles = [
+      'building delightful software.',
+      'Java • Swing • MySQL.',
+      'clean UI + solid logic.',
+      'crafting responsive websites.',
+    ];
+    const typeEl = document.getElementById('typewrite');
+    let i=0, j=0, deleting=false;
+    function type(){
+      const text = roles[i];
+      typeEl.textContent = deleting ? text.slice(0, j--) : text.slice(0, j++);
+      if(!deleting && j === text.length + 1){ deleting = true; setTimeout(type, 1200); return; }
+      if(deleting && j === 0){ deleting = false; i = (i+1)%roles.length; }
+      setTimeout(type, deleting ? 35 : 70);
+    }
+    type();
+
+    
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('show'); })
+    }, { threshold:.12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    
+    const sections = ['projects','skills','about','contact'];
+    const links = [...document.querySelectorAll('.nav-links a')];
+    function onScroll(){
+      const pos = window.scrollY + 120;
+      for(const id of sections){
+        const sec = document.getElementById(id);
+        if(!sec) continue;
+        if(pos >= sec.offsetTop && pos < sec.offsetTop + sec.offsetHeight){
+          links.forEach(a=>a.classList.toggle('active', a.getAttribute('href') === `#${id}`));
+        }
+      }
+    }
+    window.addEventListener('scroll', onScroll);
+
+    
+    const form = document.getElementById('contactForm');
+    const statusEl = document.getElementById('formStatus');
+    form.addEventListener('submit', (e)=>{
+      e.preventDefault();
+      const data = Object.fromEntries(new FormData(form).entries());
+      if(!data.name || !data.email || !data.message){
+        statusEl.textContent = 'Please fill in all fields.';
+        return;
+      }
+      statusEl.textContent = 'Thanks! Your message is ready to send (demo mode).';
+      form.reset();
+    });
+
+    
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('downloadCV').addEventListener('click', (e)=>{
+      e.preventDefault();
+      alert('Add your resume.pdf link here later.');
+    });
+  </script>
+</body>
+</html>
